@@ -1,0 +1,30 @@
+element.style {
+    user-select: auto;
+}
+hr:not([size]) {
+    height: 1px;
+}
+hr {
+    border-style: none;
+    border-top-style: dashed !important;
+    border-color: #00fff7;
+    border-width: 5px;
+    width: 100%;
+}
+
+
+/* *, ::after, ::before {
+    box-sizing: border-box !important;
+} */
+user agent stylesheet
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
